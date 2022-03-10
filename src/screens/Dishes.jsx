@@ -1,18 +1,11 @@
-import { Link } from "react-router-dom";
+// components
+import MenuItem from "../components/MenuItem";
 
 export default function Dishes({ data }) {
   const { dishes } = data;
 
   const menuItems =
-    dishes &&
-    dishes.map((item) => (
-      <div key={item.id}>
-        <Link to={`/product/${item.slug}`}>
-          <h2>{item.title}</h2>
-          <img src="" alt="coming soon.." />
-        </Link>
-      </div>
-    ));
+    dishes && dishes.map((item) => <MenuItem item={item} key={item.id} />);
   return (
     <div className="screen">
       Dishes

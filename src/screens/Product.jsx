@@ -1,4 +1,8 @@
+// npm
 import { useParams } from "react-router-dom";
+// components
+import ItemNutrients from "../components/ItemNutrients";
+import ItemRecipe from "../components/ItemRecipe";
 
 export default function Product({ data }) {
   const { dishes, desserts, drinks } = data;
@@ -6,23 +10,21 @@ export default function Product({ data }) {
 
   const { slug } = useParams();
 
-  const recipe =
+  const itemRecipe =
     allMenuItems &&
     allMenuItems
       .filter((item) => item.slug === slug)
       .map((item) => (
         <div key={item.id}>
-          <img src="" alt="coming soon" width={50} height={50} />
-          <h2>{item.title}</h2>
-          <p>{item.body}</p>
-          <br />
+          <ItemRecipe item={item} />
+          <ItemNutrients item={item} />
         </div>
       ));
 
   return (
     <div className="screen">
       Product
-      {recipe}
+      {itemRecipe}
     </div>
   );
 }

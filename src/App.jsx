@@ -12,7 +12,7 @@ import menuData from "./data/db.json";
 // styles
 import "./styles/style.css";
 
-function App() {
+export default function App() {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -38,5 +38,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
