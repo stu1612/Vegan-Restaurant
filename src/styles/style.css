@@ -1,8 +1,9 @@
 /* imports */
 
 /* _base */
-
-/* atoms */
+@import "./_base/colors.css";
+@import "./_base/layout.css";
+@import "./_base/typography.css"; /* atoms */
 
 /* organisms */
 
