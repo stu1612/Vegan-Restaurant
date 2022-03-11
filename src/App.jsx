@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 // screen
 import Index from "./screens/Index";
 import Dishes from "./screens/Dishes";
@@ -14,8 +14,6 @@ import Navbar from "./components/Navbar";
 import menuData from "./data/db.json";
 // styles
 import "./styles/style.css";
-// images
-import logo from "./assets/images/app_images/logo.png";
 
 export default function App() {
   const [data, setData] = useState([]);

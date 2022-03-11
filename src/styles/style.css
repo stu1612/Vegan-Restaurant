@@ -8,6 +8,7 @@
 /* atoms */
 
 /* molecules */
+@import "./molecules/Hero.css";
 
 /* organisms */
 @import "./organisms/Navigation.css";

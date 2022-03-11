@@ -1,9 +1,10 @@
 .nav-container {
-  height: 8em;
+  height: 10vh;
   background-color: var(--cl-green);
   display: flex;
   justify-content: center;
   width: 100%;
+  z-index: 10;
   position: sticky;
   top: 0;
 }
@@ -20,12 +21,16 @@ nav {
 }
 
 .logo img {
-  height: 6em;
+  height: 8vh;
 }
 
 .nav {
   align-items: center;
   width: 100%;
+}
+
+.navigation {
+  display: none;
 }
 
 .mobile-navigation {
@@ -44,10 +49,6 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   height: 50vh;
-}
-
-.navigation {
-  display: none;
 }
 
 @media (min-width: 960px) {
