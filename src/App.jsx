@@ -10,6 +10,7 @@ import Contact from "./screens/Contact";
 import PageNotFound from "./screens/404";
 // components
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 // data
 import menuData from "./data/db.json";
 // styles
@@ -36,6 +37,7 @@ export default function App() {
         <Route path="/product/:slug" element={<Product data={data} />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -6,9 +6,11 @@
 @import "./_base/typography.css";
 
 /* atoms */
-
+@import "./atoms/CategoryImage.css";
 /* molecules */
+@import "./molecules/Content.css";
 @import "./molecules/Hero.css";
+@import "./molecules/OpeningHours.css";
 
 /* organisms */
 @import "./organisms/Navigation.css";

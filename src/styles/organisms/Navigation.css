@@ -7,6 +7,7 @@
   z-index: 10;
   position: sticky;
   top: 0;
+  filter: drop-shadow(1px -4px 4px black);
 }
 
 nav {
@@ -49,6 +50,12 @@ nav {
   align-items: center;
   justify-content: space-evenly;
   height: 50vh;
+}
+
+@media (min-width: 680px) {
+  .nav-container {
+    background-color: var(--cl-light);
+  }
 }
 
 @media (min-width: 960px) {

@@ -1,0 +1,23 @@
+.opening-hours {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.mobile {
+  background-color: var(--cl-green);
+}
+
+.desktop {
+  background-color: transparent;
+  min-width: 600px;
+}
+
+@media (min-width: 600px) {
+  .opening-hours {
+    display: none;
+  }
+}
