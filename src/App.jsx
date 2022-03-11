@@ -27,12 +27,7 @@ export default function App() {
   return (
     <Router>
       <div className="nav-container">
-        <nav>
-          <Link to="/" className="logo">
-            <img src={logo} alt={`Rooted ${logo}`} />
-          </Link>
-          <Navbar />
-        </nav>
+        <Navbar />
       </div>
       <Routes>
         <Route path="/" element={<Index />} />

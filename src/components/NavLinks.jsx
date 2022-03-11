@@ -1,34 +1,18 @@
 import { Link } from "react-router-dom";
 
-export default function NavLinks(props) {
+export default function NavLinks({ closeMobileNavigation }) {
   return (
-    <ul className="ul-links">
-      <Link
-        to="/dishes"
-        className="link"
-        onClick={() => props.isMobile && props.closeMobileMenu()}
-      >
+    <ul>
+      <Link to="/dishes" className="link" onClick={closeMobileNavigation}>
         Dishes
       </Link>
-      <Link
-        to="/drinks"
-        className="link"
-        onClick={() => props.isMobile && props.closeMobileMenu()}
-      >
+      <Link to="/drinks" className="link" onClick={closeMobileNavigation}>
         Drinks
       </Link>
-      <Link
-        to="/desserts"
-        className="link"
-        onClick={() => props.isMobile && props.closeMobileMenu()}
-      >
+      <Link to="/desserts" className="link" onClick={closeMobileNavigation}>
         Desserts
       </Link>
-      <Link
-        to="/contact"
-        className="link"
-        onClick={() => props.isMobile && props.closeMobileMenu()}
-      >
+      <Link to="/contact" className="link" onClick={closeMobileNavigation}>
         Contact
       </Link>
     </ul>

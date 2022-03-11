@@ -1,11 +1,25 @@
+import { useState } from "react";
 import Navigation from "./Navigation";
 import MobileNavigation from "./MobileNavigation";
 
 export default function Navbar() {
+  const [isMobileOpen, setIsMobileOpen] = useState(false);
+
+  function toggleMobileNavigation() {
+    setIsMobileOpen(!isMobileOpen);
+  }
+
+  function setStateToFalse() {
+    setIsMobileOpen(false);
+  }
   return (
-    <div className="nav-bar">
+    <nav>
       <Navigation />
-      <MobileNavigation />
-    </div>
+      <MobileNavigation
+        toggleMobileNavigation={toggleMobileNavigation}
+        isMobileOpen={isMobileOpen}
+        setStateToFalse={setStateToFalse}
+      />
+    </nav>
   );
 }

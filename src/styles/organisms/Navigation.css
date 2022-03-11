@@ -4,6 +4,8 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  position: sticky;
+  top: 0;
 }
 
 nav {
@@ -18,37 +20,37 @@ nav {
 }
 
 .logo img {
-  height: 5em;
+  height: 6em;
 }
 
 .nav {
   align-items: center;
+  width: 100%;
 }
 
 .mobile-navigation {
   display: flex;
 }
 
-.mobile-navigation .ul-links {
+.mobile-navigation ul {
   display: flex;
   flex-direction: column;
   position: absolute;
   top: 8em;
   right: 0;
-  width: 100%;
-  background-color: pink;
-  border-top: 2px solid red;
-}
-
-.mobile-navigation .ul-links .link {
-  padding-left: 2em;
+  left: 0;
+  background-color: rgba(123, 190, 117, 0.8);
+  border-top: 2px solid white;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 50vh;
 }
 
 .navigation {
   display: none;
 }
 
-@media (min-width: 760px) {
+@media (min-width: 960px) {
   .mobile-navigation {
     display: none;
   }

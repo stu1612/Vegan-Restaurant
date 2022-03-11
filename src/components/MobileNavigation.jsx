@@ -1,30 +1,46 @@
+import { Link } from "react-router-dom";
+
 import NavLinks from "./NavLinks";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BiMenu } from "react-icons/bi";
-import { useState } from "react";
+import logo from "../assets/images/app_images/logo.png";
 
-export default function MobileNavigation() {
-  const [isOpen, setIsOpen] = useState(false);
+export default function MobileNavigation({
+  toggleMobileNavigation,
+  isMobileOpen,
+  setStateToFalse,
+}) {
+  const isMobile = true;
 
   const burgerIcon = (
-    <BiMenu className="burger" size={33} onClick={() => setIsOpen(!isOpen)} />
+    <BiMenu className="burger" size={33} onClick={toggleMobileNavigation} />
   );
 
   const closedBurgerIcon = (
     <BiMenuAltRight
       className="burger"
       size={33}
-      onClick={() => setIsOpen(!isOpen)}
+      onClick={toggleMobileNavigation}
     />
   );
 
-  function closeMobileMenu() {
-    setIsOpen(false);
+  function closeMobileNavigation() {
+    isMobile && setStateToFalse();
   }
+
   return (
     <div className="nav mobile-navigation">
-      {isOpen && <NavLinks isMobile={true} closeMobileMenu={closeMobileMenu} />}
-      {isOpen ? closedBurgerIcon : burgerIcon}
+      <Link to="/" className="logo">
+        <img
+          src={logo}
+          alt={`Rooted ${logo}`}
+          onClick={closeMobileNavigation}
+        />
+      </Link>
+      {isMobileOpen && (
+        <NavLinks closeMobileNavigation={closeMobileNavigation} />
+      )}
+      {isMobileOpen ? closedBurgerIcon : burgerIcon}
     </div>
   );
 }
