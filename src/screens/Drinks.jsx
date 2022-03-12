@@ -14,10 +14,8 @@ export default function Drinks() {
       <Hero className="drinks" />
       <div className="container-780">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-          optio? Delectus modi blanditiis labore laboriosam maxime voluptatem
-          repellendus omnis harum fugiat culpa ipsa necessitatibus vitae
-          possimus, molestiae sit maiores quia!
+          I thought a vegan diet would be too difficult, being on the road so
+          much, but it's been far easier than I thought - 'Michelle Forbes'
         </p>
         <div>{menuItems}</div>
       </div>

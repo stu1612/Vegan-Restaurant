@@ -1,6 +1,8 @@
-import image from "../assets/images/app_images/owner_md.jpg";
+// components
 import BookingForm from "../components/BookingForm";
 import GoogleMap from "../components/GoogleMap";
+// images
+import image from "../assets/images/app_images/owner_md.jpg";
 
 export default function Contact() {
   return (

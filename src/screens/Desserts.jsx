@@ -14,10 +14,9 @@ export default function Dishes() {
       <Hero className="desserts" />
       <div className="container-780">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-          optio? Delectus modi blanditiis labore laboriosam maxime voluptatem
-          repellendus omnis harum fugiat culpa ipsa necessitatibus vitae
-          possimus, molestiae sit maiores quia!
+          I've been vegan for over a year now, about 15 months. I changed to the
+          vegan diet, and I feel fabulous; it's great. I wish I'd done it
+          earlier - 'Karen Carney'
         </p>
         <div>{menuItems}</div>
       </div>

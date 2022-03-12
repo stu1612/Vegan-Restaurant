@@ -14,10 +14,11 @@ export default function Dishes() {
       <Hero className="dishes" />
       <div className="container-780">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
-          optio? Delectus modi blanditiis labore laboriosam maxime voluptatem
-          repellendus omnis harum fugiat culpa ipsa necessitatibus vitae
-          possimus, molestiae sit maiores quia!
+          Almost as soon as I went vegan, people started telling me that my skin
+          looked great, and that I appeared younger, slimmer, and healthier. I'm
+          convinced that of all the changes I've made to my lifestyle, it's the
+          adoption of a vegan diet that has been best for me - physically,
+          mentally, and certainly spiritually - 'Steve-O'
         </p>
         <div>{menuItems}</div>
       </div>
