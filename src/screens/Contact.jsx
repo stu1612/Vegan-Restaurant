@@ -7,7 +7,7 @@ import image from "../assets/images/app_images/owner_md.jpg";
 export default function Contact() {
   return (
     <div>
-      <div className="image-container">
+      <div className="image-wrapper">
         <img src={image} alt="Business owner of Rooter Restuarnt" />
       </div>
       <div className="container-780 text-center">

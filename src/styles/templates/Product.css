@@ -24,13 +24,6 @@
   background-color: var(--cl-green);
 }
 
-.row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .product-btn {
   width: min(90%, 400px);
   margin: 2rem auto 0;

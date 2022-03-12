@@ -5,5 +5,10 @@ export default function ProductIngredients({ item }) {
     <li key={index}>{ingredient}</li>
   ));
 
-  return <div className="base ingredients">{ingredientsList}</div>;
+  return (
+    <div className="base ingredients">
+      <h3>Ingredients</h3>
+      {ingredientsList}
+    </div>
+  );
 }

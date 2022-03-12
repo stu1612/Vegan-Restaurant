@@ -1,3 +1,4 @@
+// components
 import ProductIngredients from "./ProductIngredients";
 import ProductNutrients from "./ProductNutrients";
 
@@ -6,7 +7,7 @@ export default function ProductItem({ item }) {
 
   return (
     <div>
-      <div className="image-container">
+      <div className="image-wrapper">
         <img
           src={require(`../assets/images/recipes/${thumbnailImage}`)}
           alt={title}

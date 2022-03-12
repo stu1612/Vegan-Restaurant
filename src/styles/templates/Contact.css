@@ -1,8 +1,3 @@
-.col {
-  display: flex;
-  flex-direction: column;
-}
-
 form {
   background-color: var(--cl-orange);
   padding: 2rem;
