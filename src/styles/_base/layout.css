@@ -22,9 +22,20 @@ body {
   background-color: var(--cl-light);
 }
 
+/* General */
+
 .text-center {
   text-align: center;
 }
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: var(--cl-green);
+  margin-top: 5rem;
+}
+
+/* Container */
 
 .container-960 {
   width: min(100%, 960px);
@@ -38,54 +49,52 @@ body {
   margin: 0 auto;
 }
 
-.footer {
-  width: 100%;
-  height: 10vh;
-  background-color: var(--cl-green);
-  margin-top: 5rem;
-}
+/* Grids */
 
-.grid {
+.category-grid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-areas:
-    "box1"
-    "box2"
-    "box4"
-    "box3"
-    "box5"
-    "box6";
+    "cat1"
+    "cat2"
+    "cat4"
+    "cat3"
+    "cat5"
+    "cat6";
 }
 
-.one {
+.cat1,
+.cat2,
+.cat3,
+.cat4,
+.cat5,
+.cat6 {
   height: 300px;
-  grid-area: box1;
 }
 
-.two {
-  height: 300px;
-  grid-area: box2;
+.cat1 {
+  grid-area: cat1;
 }
 
-.three {
-  height: 300px;
-  grid-area: box3;
+.cat2 {
+  grid-area: cat2;
 }
 
-.four {
-  height: 300px;
-  grid-area: box4;
+.cat3 {
+  grid-area: cat3;
 }
 
-.five {
-  height: 300px;
-  grid-area: box5;
+.cat4 {
+  grid-area: cat4;
 }
 
-.six {
-  height: 300px;
-  grid-area: box6;
+.cat5 {
+  grid-area: cat5;
+}
+
+.cat6 {
+  grid-area: cat6;
 }
 
 .menu-items {
@@ -106,13 +115,13 @@ body {
 }
 
 @media (min-width: 680px) {
-  .grid {
+  .category-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-areas:
-      "box1 box2"
-      "box3 box4"
-      "box5 box6";
+      "cat1 cat2"
+      "cat3 cat4"
+      "cat5 cat6";
   }
 
   .menu-items {
