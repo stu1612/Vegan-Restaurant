@@ -1,3 +1,6 @@
+import ProductIngredients from "./ProductIngredients";
+import ProductNutrients from "./ProductNutrients";
+
 export default function ProductItem({ item }) {
   const { title, body, thumbnailImage } = item;
 
@@ -13,6 +16,8 @@ export default function ProductItem({ item }) {
         <h2>{title}</h2>
         <p>{body}</p>
       </div>
+      <ProductIngredients item={item} />
+      <ProductNutrients item={item} />
     </div>
   );
 }

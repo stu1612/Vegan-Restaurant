@@ -1,25 +1,24 @@
 // npm
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 // components
-import ProductNutrients from "../components/ProductNutrients";
 import ProductItem from "../components/ProductItem";
-import ProductIngredients from "../components/ProductIngredients";
+// data
+import data from "../data/db.json";
 
-export default function Product({ data }) {
-  const { dishes, desserts, drinks } = data;
-  const allMenuItems = [...dishes, ...desserts, ...drinks];
-
+export default function Product() {
   const { slug } = useParams();
+  const navigate = useNavigate();
 
   const itemRecipe =
-    allMenuItems &&
-    allMenuItems
+    data &&
+    data
       .filter((item) => item.slug === slug)
       .map((item) => (
-        <div key={item.id}>
+        <div key={item.id} className="product">
           <ProductItem item={item} />
-          <ProductIngredients item={item} />
-          <ProductNutrients item={item} />
+          <div className="product-btn">
+            <button onClick={() => navigate(-1)}>Go Back</button>
+          </div>
         </div>
       ));
 

@@ -1,12 +1,14 @@
 // components
 import Hero from "../components/Hero";
 import MenuItems from "../components/MenuItems";
+// data
+import data from "../data/db.json";
 
-export default function Dishes({ data }) {
-  const { dishes } = data;
+export default function Dishes() {
+  const menuItems = data
+    .filter((item) => item.cat === "dish")
+    .map((item) => <MenuItems item={item} key={item.id} />);
 
-  const menuItems =
-    dishes && dishes.map((item) => <MenuItems item={item} key={item.id} />);
   return (
     <div>
       <Hero className="dishes" />
