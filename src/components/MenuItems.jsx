@@ -8,9 +8,9 @@ export default function MenuItems({ item }) {
       <img
         src={require(`../assets/images/recipes/${thumbnailImage}`)}
         alt={title}
-        className="menu-img a"
+        className="menu-img menu1"
       />
-      <div className="b menu-content">
+      <div className="menu2 menu-content">
         <h2>{title}</h2>
         <p>{body}</p>
         <p>More ..</p>

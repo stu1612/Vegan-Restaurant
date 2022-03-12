@@ -1,8 +1,9 @@
+// components
+import CategoryItem from "./CategoryItem";
 // images
 import dish from "../assets/images/app_images/dish_sm.jpg";
 import dessert from "../assets/images/app_images/dessert_sm.jpg";
 import drink from "../assets/images/app_images/drink_sm.jpg";
-import CategoryItem from "./CategoryItem";
 
 export default function CategoryItems({ content }) {
   return (

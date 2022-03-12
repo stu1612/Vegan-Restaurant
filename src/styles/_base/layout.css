@@ -102,16 +102,16 @@ body {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   grid-template-areas:
-    "a"
-    "b";
+    "menu1"
+    "menu2";
 }
 
-.a {
-  grid-area: a;
+.menu1 {
+  grid-area: menu1;
 }
 
-.b {
-  grid-area: b;
+.menu2 {
+  grid-area: menu2;
 }
 
 @media (min-width: 680px) {
@@ -127,7 +127,7 @@ body {
   .menu-items {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    grid-template-areas: "a b b";
+    grid-template-areas: "menu1 menu2 menu2";
     grid-column-gap: 3rem;
     margin-bottom: 5rem;
   }
