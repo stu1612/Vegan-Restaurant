@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 // screen
 import Index from "./screens/Index";
 import Dishes from "./screens/Dishes";
@@ -6,7 +6,6 @@ import Drinks from "./screens/Drinks";
 import Desserts from "./screens/Desserts";
 import Product from "./screens/Product";
 import Contact from "./screens/Contact";
-import PageNotFound from "./screens/404";
 // components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -26,7 +25,7 @@ export default function App() {
         <Route path="/desserts" element={<Desserts />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/product/:slug" element={<Product />} />
-        <Route path="/*" element={<PageNotFound />} />
+        <Route path="/*" element={<Navigate replace to="/" />} />
       </Routes>
       <Footer />
     </>
