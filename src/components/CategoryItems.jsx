@@ -31,7 +31,9 @@ export default function CategoryItems({ info }) {
         <div className="content bg-orange">
           <h2>Desserts</h2>
           <p>{info[1]}</p>
-          <button>View more</button>
+          <Link to="./desserts">
+            <button>View more</button>
+          </Link>
         </div>
       </div>
       <div className="five">
@@ -45,7 +47,9 @@ export default function CategoryItems({ info }) {
         <div className="content bg-orange">
           <h2>Drinks</h2>
           <p>{info[2]}</p>
-          <button>View more</button>
+          <Link to="./drinks">
+            <button>View more</button>
+          </Link>
         </div>
       </div>
     </div>

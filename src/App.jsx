@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 // screen
 import Index from "./screens/Index";
 import Dishes from "./screens/Dishes";
@@ -24,7 +24,7 @@ export default function App() {
   }, []);
 
   return (
-    <Router>
+    <>
       <div className="nav-container">
         <Navbar />
       </div>
@@ -38,6 +38,6 @@ export default function App() {
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }

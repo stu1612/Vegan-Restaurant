@@ -1,4 +1,4 @@
-export default function ItemNutrients({ item }) {
+export default function ProductNutrients({ item }) {
   const nutrient = item.nutrients;
   return (
     <div>

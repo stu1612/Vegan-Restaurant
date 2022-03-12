@@ -1,8 +1,9 @@
 // npm
 import { useParams } from "react-router-dom";
 // components
-import ItemNutrients from "../components/ItemNutrients";
-import ItemRecipe from "../components/ItemRecipe";
+import ProductNutrients from "../components/ProductNutrients";
+import ProductItem from "../components/ProductItem";
+import ProductIngredients from "../components/ProductIngredients";
 
 export default function Product({ data }) {
   const { dishes, desserts, drinks } = data;
@@ -16,15 +17,11 @@ export default function Product({ data }) {
       .filter((item) => item.slug === slug)
       .map((item) => (
         <div key={item.id}>
-          <ItemRecipe item={item} />
-          <ItemNutrients item={item} />
+          <ProductItem item={item} />
+          <ProductIngredients item={item} />
+          <ProductNutrients item={item} />
         </div>
       ));
 
-  return (
-    <div className="screen">
-      Product
-      {itemRecipe}
-    </div>
-  );
+  return <div className="screen">{itemRecipe}</div>;
 }

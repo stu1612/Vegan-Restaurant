@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Hero(props) {
-  console.log(props);
   return (
     <section id="hero">
       <div className="hero">
