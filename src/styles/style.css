@@ -16,4 +16,5 @@
 @import "./organisms/Navigation.css";
 
 /* templates */
+@import "./templates/Contact.css";
 @import "./templates/Product.css";

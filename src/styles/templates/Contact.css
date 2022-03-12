@@ -1,0 +1,36 @@
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  background-color: var(--cl-orange);
+  padding: 2rem;
+  width: min(90%, 400px);
+  margin: 0 auto;
+}
+
+.input {
+  margin: 1rem 0;
+}
+
+input {
+  border: 0;
+  padding: 1rem;
+  border-radius: 100px;
+}
+
+.form-btn {
+  display: grid;
+  margin-top: 4rem;
+}
+
+.form-btn input {
+  border-radius: 5px;
+}
+
+.map {
+  width: min(100%, 760px);
+  margin: 0 auto;
+  margin-top: 5rem;
+}
