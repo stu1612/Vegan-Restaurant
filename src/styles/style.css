@@ -6,7 +6,7 @@
 @import "./_base/typography.css";
 
 /* atoms */
-@import "./atoms/CategoryImage.css";
+@import "./atoms/Images.css";
 /* molecules */
 @import "./molecules/Content.css";
 @import "./molecules/Hero.css";

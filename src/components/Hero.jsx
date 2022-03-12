@@ -1,10 +1,11 @@
 import React from "react";
 
-export default function Hero() {
+export default function Hero(props) {
+  console.log(props);
   return (
     <section id="hero">
       <div className="hero">
-        <div className="hero-img" />
+        <div className={`hero-img ${props.className}`} />
         <div className="svg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path

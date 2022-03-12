@@ -1,14 +1,16 @@
-import CategoryGridItem from "../components/CategoryGridItem";
+// components
+import CategoryItems from "../components/CategoryItems";
 import Hero from "../components/Hero";
 import OpeningHours from "../components/OpeningHours";
 
 export default function Index() {
+  const info = ["Hello 1", "Hello 2", "Hello 3"];
   return (
     <div>
-      <Hero />
+      <Hero className="home" />
       <OpeningHours mobile={true} />
       <div className="container-960">
-        <CategoryGridItem />
+        <CategoryItems info={info} />
       </div>
     </div>
   );

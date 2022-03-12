@@ -1,15 +1,24 @@
 // components
-import MenuItem from "../components/MenuItem";
+import MenuItems from "../components/MenuItems";
+import Hero from "../components/Hero";
 
 export default function Dishes({ data }) {
   const { desserts } = data;
 
   const menuItems =
-    desserts && desserts.map((item) => <MenuItem item={item} key={item.id} />);
+    desserts && desserts.map((item) => <MenuItems item={item} key={item.id} />);
   return (
-    <div className="screen">
-      Desserts
-      {menuItems}
+    <div>
+      <Hero className="desserts" />
+      <div className="container-780">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores,
+          optio? Delectus modi blanditiis labore laboriosam maxime voluptatem
+          repellendus omnis harum fugiat culpa ipsa necessitatibus vitae
+          possimus, molestiae sit maiores quia!
+        </p>
+        <div>{menuItems}</div>
+      </div>
     </div>
   );
 }

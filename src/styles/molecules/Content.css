@@ -7,12 +7,25 @@
   padding: 0 10rem;
 }
 
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2.4rem;
+}
+
+.bg-orange {
+  background-color: var(--cl-orange);
+}
+
 .content p {
   display: none;
 }
 
 @media (min-width: 680px) {
-  .content {
+  .content,
+  .menu-content {
     align-items: flex-start;
   }
   .content p {

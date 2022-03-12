@@ -4,12 +4,27 @@
 }
 
 .hero-img {
-  background-image: url(../../assets/images/app_images/Hero.jpg);
   height: 100%;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+}
+
+.home {
+  background-image: url(../../assets/images/app_images/Hero.jpg);
+}
+
+.dishes {
+  background-image: url(../../assets/images/app_images/dish_category_lg.jpg);
+}
+
+.desserts {
+  background-image: url(../../assets/images/app_images/dessert_category_lg.jpg);
+}
+
+.drinks {
+  background-image: url(../../assets/images/app_images/drink_category_lg.jpg);
 }
 
 .svg {

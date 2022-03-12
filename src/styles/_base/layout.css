@@ -26,7 +26,12 @@ body {
   width: min(100%, 960px);
   height: auto;
   margin: 0 auto;
-  background-color: var(--cl-orange);
+}
+
+.container-780 {
+  width: min(100%, 780px);
+  height: auto;
+  margin: 0 auto;
 }
 
 .footer {
@@ -79,6 +84,23 @@ body {
   grid-area: box6;
 }
 
+.menu-items {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "a"
+    "b";
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
 @media (min-width: 680px) {
   .grid {
     grid-template-columns: 1fr 1fr;
@@ -87,5 +109,13 @@ body {
       "box1 box2"
       "box3 box4"
       "box5 box6";
+  }
+
+  .menu-items {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "a b b";
+    grid-column-gap: 3rem;
+    margin-bottom: 5rem;
   }
 }
