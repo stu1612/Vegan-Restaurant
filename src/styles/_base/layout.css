@@ -61,6 +61,14 @@ li {
   height: 10vh;
   background-color: var(--cl-green);
   margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.footer .icon {
+  margin: 0 2rem;
 }
 
 /* Container */
@@ -139,6 +147,10 @@ li {
   grid-template-areas:
     "menu1"
     "menu2";
+}
+
+.menu-items:hover .menu-img {
+  filter: drop-shadow(1px 6px 8px rgb(196, 196, 196));
 }
 
 .menu1 {

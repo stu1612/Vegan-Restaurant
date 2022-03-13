@@ -3,7 +3,6 @@ export default function Hero(props) {
     <section id="hero">
       <div className="hero">
         <div className={`hero-img ${props.className}`} />
-        {/* <h1 className="h1-desktop">ROOTED</h1> */}
         <div className="svg">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path

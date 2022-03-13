@@ -49,18 +49,12 @@ nav {
   top: 8em;
   right: 0;
   left: 0;
-  background-color: rgba(123, 190, 117, 0.8);
-  border-top: 2px solid white;
+  background-color: var(--cl-light);
+  border-top: 2px solid var(--cl-green);
   align-items: center;
   justify-content: space-evenly;
   height: 50vh;
 }
-
-/* @media (min-width: 680px) {
-  .nav-container {
-    background-color: var(--cl-light);
-  }
-} */
 
 @media (min-width: 960px) {
   .nav-container {
