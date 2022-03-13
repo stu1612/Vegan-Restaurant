@@ -10,11 +10,13 @@ export default function CategoryItem(props) {
       </div>
       <div className={cn2}>
         <div className="content bg-orange">
-          <h2>{title}</h2>
+          <h2 className="h2">{title}</h2>
           <p>{text}</p>
-          <Link to={route}>
-            <button>View more</button>
-          </Link>
+          <div className="content-btn">
+            <Link to={route}>
+              <button className="button">View more</button>
+            </Link>
+          </div>
         </div>
       </div>
     </>

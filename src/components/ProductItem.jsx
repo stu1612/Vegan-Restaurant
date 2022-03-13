@@ -14,8 +14,10 @@ export default function ProductItem({ item }) {
         />
       </div>
       <div className="container-780 text-center">
-        <h2>{title}</h2>
-        <p>{body}</p>
+        <div className="product-content">
+          <h2 className="h2">{title}</h2>
+          <p>{body}</p>
+        </div>
       </div>
       <ProductIngredients item={item} />
       <ProductNutrients item={item} />

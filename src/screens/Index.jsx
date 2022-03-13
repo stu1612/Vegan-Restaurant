@@ -12,8 +12,15 @@ export default function Index() {
   return (
     <div>
       <Hero className="home" />
+      <div className="title-container-mobile">
+        <h1 className="h1-mobile">Rooted</h1>
+        <h2 className="h2-mobile">100% plant based</h2>
+        <button className="button">Book a table</button>
+      </div>
+      <h1 className="h1-heading">ROOTED</h1>
+      <h2 className="sub-heading">100% plant based</h2>
       <OpeningHours mobile={true} />
-      <div className="container-960">
+      <div className="container-1200">
         <CategoryItems content={content} />
       </div>
     </div>

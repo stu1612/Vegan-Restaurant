@@ -1,8 +1,9 @@
+// npm
 import { Link } from "react-router-dom";
 
 export default function NavLinks({ closeMobileNavigation }) {
   return (
-    <ul>
+    <ul className="links">
       <Link to="/dishes" className="link" onClick={closeMobileNavigation}>
         Dishes
       </Link>

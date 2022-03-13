@@ -12,11 +12,14 @@ export default function Drinks() {
   return (
     <div>
       <Hero className="drinks" />
+      <h2 className="h2-heading">DRINKS</h2>
       <div className="container-780">
-        <p>
-          I thought a vegan diet would be too difficult, being on the road so
-          much, but it's been far easier than I thought - 'Michelle Forbes'
-        </p>
+        <div className="p-container-mobile">
+          <p>
+            I thought a vegan diet would be too difficult, being on the road so
+            much, but it's been far easier than I thought - 'Michelle Forbes'
+          </p>
+        </div>
         <div>{menuItems}</div>
       </div>
     </div>

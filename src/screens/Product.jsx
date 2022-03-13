@@ -17,7 +17,9 @@ export default function Product() {
         <div key={item.id} className="product">
           <ProductItem item={item} />
           <div className="product-btn">
-            <button onClick={() => navigate(-1)}>Go Back</button>
+            <button onClick={() => navigate(-1)} className="button">
+              Go Back
+            </button>
           </div>
         </div>
       ));

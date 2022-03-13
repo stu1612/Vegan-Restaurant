@@ -11,7 +11,7 @@ export default function MenuItems({ item }) {
         className="menu-img menu1"
       />
       <div className="menu2 menu-content">
-        <h2>{title}</h2>
+        <h2 className="h2">{title}</h2>
         <p>{body}</p>
         <p>More ..</p>
       </div>

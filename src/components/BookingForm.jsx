@@ -2,8 +2,8 @@ export default function BookingForm() {
   const date = new Date();
   return (
     <div>
-      <h2 className="text-center">Book a table</h2>
       <form>
+        <h3 className="text-center h3">Book a table</h3>
         <div className="col input">
           <label>First Name</label>
           <input type="text" placeholder="Ex: Rooted" />

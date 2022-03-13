@@ -2,8 +2,9 @@ export default function ProductNutrients({ item }) {
   const nutrient = item.nutrients;
   return (
     <div>
-      <h3>Nutrition Facts</h3>
       <div className="base nutrients">
+        <h3 className="h3">Nutrition Facts</h3>
+
         <p>Servings per customer</p>
         <div className="line" />
         <p>Amount per serving</p>

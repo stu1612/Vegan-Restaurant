@@ -1,8 +1,10 @@
+// npm
 import { Link } from "react-router-dom";
-
-import NavLinks from "./NavLinks";
 import { BiMenuAltRight } from "react-icons/bi";
 import { BiMenu } from "react-icons/bi";
+// components
+import NavLinks from "./NavLinks";
+// images
 import logo from "../assets/images/app_images/logo.png";
 
 export default function MobileNavigation({
