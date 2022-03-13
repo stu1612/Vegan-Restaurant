@@ -13,7 +13,7 @@ export default function MenuItems({ item }) {
       <div className="menu2 menu-content">
         <h2 className="h2">{title}</h2>
         <p>{body}</p>
-        <p>More ..</p>
+        <button className="button w-100">More</button>
       </div>
     </Link>
   );

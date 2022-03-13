@@ -28,6 +28,16 @@ span,
   letter-spacing: 0.2px;
 }
 
+span {
+  padding: 0.5rem 0;
+}
+
+.light {
+  font-size: 12px;
+  opacity: 0.5;
+  padding-left: 2rem;
+}
+
 .h1-heading,
 .h2-heading {
   position: absolute;

@@ -56,13 +56,16 @@ nav {
   height: 50vh;
 }
 
-@media (min-width: 680px) {
+/* @media (min-width: 680px) {
   .nav-container {
     background-color: var(--cl-light);
   }
-}
+} */
 
 @media (min-width: 960px) {
+  .nav-container {
+    background-color: var(--cl-light);
+  }
   .mobile-navigation {
     display: none;
   }

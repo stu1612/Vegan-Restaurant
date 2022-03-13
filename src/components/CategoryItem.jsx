@@ -14,7 +14,7 @@ export default function CategoryItem(props) {
           <p>{text}</p>
           <div className="content-btn">
             <Link to={route}>
-              <button className="button">View more</button>
+              <button className="button w-50">View more</button>
             </Link>
           </div>
         </div>

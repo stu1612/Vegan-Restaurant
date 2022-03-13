@@ -9,6 +9,7 @@ import Contact from "./screens/Contact";
 // components
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 // styles
 import "./styles/style.css";
 
@@ -18,15 +19,17 @@ export default function App() {
       <div className="nav-container">
         <Navbar />
       </div>
-      <Routes>
-        <Route path="/" element={<Index />} />
-        <Route path="/dishes" element={<Dishes />} />
-        <Route path="/drinks" element={<Drinks />} />
-        <Route path="/desserts" element={<Desserts />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/product/:slug" element={<Product />} />
-        <Route path="/*" element={<Navigate replace to="/" />} />
-      </Routes>
+      <ScrollToTop>
+        <Routes>
+          <Route path="/" element={<Index />} />
+          <Route path="/dishes" element={<Dishes />} />
+          <Route path="/drinks" element={<Drinks />} />
+          <Route path="/desserts" element={<Desserts />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/product/:slug" element={<Product />} />
+          <Route path="/*" element={<Navigate replace to="/" />} />
+        </Routes>
+      </ScrollToTop>
       <Footer />
     </>
   );

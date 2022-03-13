@@ -19,7 +19,7 @@ export default function ProductNutrients({ item }) {
           <p>{nutrient[0]}</p>
         </div>
         <div className="row">
-          <p>Saturated Fat</p>
+          <p className="light">Saturated Fat</p>
           <p>{nutrient[1]}</p>
         </div>
         <div className="row">
@@ -35,11 +35,12 @@ export default function ProductNutrients({ item }) {
           <p>{nutrient[4]}</p>
         </div>
         <div className="row">
-          <p>Dietary Fiber</p>
+          <p className="light">Dietary Fiber</p>
           <p>{nutrient[5]}</p>
         </div>
-        <p>Sugars 8g</p>
+        <p className="light">Sugars 8g</p>
         <p>Protein</p>
+        <div className="line" />
       </div>
     </div>
   );

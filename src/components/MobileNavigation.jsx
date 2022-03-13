@@ -15,7 +15,12 @@ export default function MobileNavigation({
   const isMobile = true;
 
   const burgerIcon = (
-    <BiMenu className="burger" size={33} onClick={toggleMobileNavigation} />
+    <BiMenu
+      className="burger"
+      size={33}
+      color="white"
+      onClick={toggleMobileNavigation}
+    />
   );
 
   const closedBurgerIcon = (

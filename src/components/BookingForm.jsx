@@ -38,7 +38,7 @@ export default function BookingForm() {
           <input type="time" id="time" min="11:00" max="22:00" required />
         </div>
         <div className="form-btn">
-          <input type="button" value="Submit" />
+          <input type="button" className="button" value="Submit" />
         </div>
       </form>
     </div>
