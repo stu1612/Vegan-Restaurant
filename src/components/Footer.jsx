@@ -1,6 +1,7 @@
 // npm
 import { AiFillTwitterCircle } from "react-icons/ai";
 import { FaFacebook } from "react-icons/fa";
+
 export default function Footer() {
   return (
     <div className="footer">

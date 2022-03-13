@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function OpeningHours({ mobile }) {
   return (
     <div className={`opening-hours ${mobile ? "mobile" : "desktop"}`}>

@@ -14,7 +14,7 @@ export default function MenuItems({ item }) {
         <h2 className="h2">{title}</h2>
         <p>{body}</p>
         <button className="button w-100 disable">View more</button>
-        <p className="light">View more</p>
+        <p className="light active">View more</p>
       </div>
     </Link>
   );

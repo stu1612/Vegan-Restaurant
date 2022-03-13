@@ -46,11 +46,11 @@ nav {
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 8em;
+  top: 10vh;
   right: 0;
   left: 0;
   background-color: var(--cl-light);
-  border-top: 2px solid var(--cl-green);
+  border-top: 4px solid var(--cl-orange);
   align-items: center;
   justify-content: space-evenly;
   height: 50vh;

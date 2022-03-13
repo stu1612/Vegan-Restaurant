@@ -71,6 +71,10 @@ li {
   margin: 0 2rem;
 }
 
+.active {
+  display: none;
+}
+
 /* Container */
 
 .container-960 {
@@ -203,5 +207,9 @@ li {
     grid-template-areas: "menu1 menu2 menu2";
     grid-column-gap: 3rem;
     margin-bottom: 5rem;
+  }
+
+  .active {
+    display: block;
   }
 }
