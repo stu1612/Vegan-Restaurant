@@ -5,8 +5,7 @@
     "title": "Ricotta & Spinach Pizza",
     "slug": "ricotta-spinach-pizza",
     "body": "When it comes to vegan pizza, nothing compares to this delicious classic.  Spinach, Ricotta topped with caramelizad onion",
-    "thumbnailImage": "dish_1.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dish_md_1.jpg",
     "ingredients": [
       "Almond ricotta",
       "Spinach",
@@ -22,8 +21,7 @@
     "title": "Mediterranean Wraps",
     "slug": "mediterranean-wraps",
     "body": "These vegan mediterranean wraps are filled with smashed chickpeas, crunchy colourful vegetables and a creamy tzatziki sauce",
-    "thumbnailImage": "dish_2.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dish_md_2.jpg",
     "ingredients": [
       "Chickpea flour",
       "Cucumber",
@@ -39,8 +37,7 @@
     "title": "Carrot & Coriander Soup",
     "slug": "carrot-coriander-soup",
     "body": "Simple ingredients combined to offer up a delicious and healthy dish",
-    "thumbnailImage": "dish_3.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dish_md_3.jpg",
     "ingredients": ["Carrots", "Coriander", "Ginger", "Potatoes", "Lemon"],
     "nutrients": ["18%", "6%", "4%", "12%", "3%", "8%"]
   },
@@ -50,8 +47,7 @@
     "title": "Avacado Hummus Sandwich",
     "slug": "avacado-hummus-sandwich",
     "body": "This vegan sandwich is stacked with veggies and is a tasty powerhouse of nutrients",
-    "thumbnailImage": "dish_4.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dish_md_4.jpg",
     "ingredients": [
       "Avacado",
       "Hummus",
@@ -69,7 +65,6 @@
     "slug": "chocolate-mouse",
     "body": "Exciting, simple, indulgent - enough said !!!",
     "thumbnailImage": "dessert_md_1.jpg",
-    "headerImage": "img.jpg",
     "ingredients": [
       "Aquafaba",
       "Vegan cacao",
@@ -85,8 +80,7 @@
     "title": "Blueberry Souffle",
     "slug": "blueberry-souffle",
     "body": "This adorable blueberry souffle is a subtle but elegant end to your night",
-    "thumbnailImage": "dessert_2.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dessert_md_2.jpg",
     "ingredients": [
       "Blueberries",
       "Vanilla pod",
@@ -102,8 +96,7 @@
     "title": "Berry Upside Down Cake",
     "slug": "berry-upside-down-cake",
     "body": "The vegan berry cake is a dense, spongy treat combined with fresh flavours of mint",
-    "thumbnailImage": "dessert_3.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dessert_md_3.jpg",
     "ingredients": ["Mint", "Mixed Berries", "Lemon", "Vanilla", "Olive oil"],
     "nutrients": ["5%", "6%", "2%", "12%", "4%", "9%"]
   },
@@ -113,8 +106,7 @@
     "title": "Chocolate Cake",
     "slug": "chocolate-cake",
     "body": "Fluffy, smooth chocolate vegan goodness !!",
-    "thumbnailImage": "dessert_4.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "dessert_md_4.jpg",
     "ingredients": [
       "Vegan Milk",
       "Lemon Juice",
@@ -131,8 +123,7 @@
     "title": "Golden Peach Sunrise",
     "slug": "golden-peach-sunrise",
     "body": "This vibrant and refeshing peach sunrise smothie is creamy and sweet, a little bit spice from fresh ginger and turmeric, with a hint of tart.",
-    "thumbnailImage": "drink_1.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "drink_md_1.jpg",
     "ingredients": ["Rasperries", "Carrot", "Ginger", "Turmeric", "Orange"],
     "nutrients": ["4%", "6%", "9%", "6%", "7%", "5%"]
   },
@@ -142,8 +133,7 @@
     "title": "Hot Pink Beet",
     "slug": "hot-pink-beet",
     "body": "Hot pink beet smoothie is refreshing and stunning.  Hint of beet with berries, citrus and almond butter.",
-    "thumbnailImage": "drink_2.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "drink_md_2.jpg",
     "ingredients": ["Beets", "Almond Butter", "Lemon", "Berries", "Chia"],
     "nutrients": ["8%", "10%", "13%", "5%", "7%", "9%"]
   },
@@ -153,8 +143,7 @@
     "title": "Maca Caramel Frap",
     "slug": "maca-caramel-frap",
     "body": "Vegan maca caramel frap is super luscious with only dates and bananas used as sweetener",
-    "thumbnailImage": "drink_3.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "drink_md_3.jpg",
     "ingredients": ["Raw Cashews", "Banana", "Maca Powder", "Coffee", "Dates"],
     "nutrients": ["12%", "5%", "6%", "12%", "6%", "9%"]
   },
@@ -164,8 +153,7 @@
     "title": "Spiced Blueberry & Goji Berry",
     "slug": "spiced-blueberry-goji",
     "body": "A comforting and fmailiar fruity blend with the added goodness of soaked goji berries and warm spices",
-    "thumbnailImage": "drink_4.jpg",
-    "headerImage": "img.jpg",
+    "thumbnailImage": "drink_md_4.jpg",
     "ingredients": ["Blueberries", "Goji", "Cinnamon", "Banana", "Lemon"],
     "nutrients": ["12%", "5%", "8%", "10%", "3%", "13%"]
   }
