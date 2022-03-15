@@ -10,9 +10,11 @@ export default function Navbar() {
     setIsMobileOpen(!isMobileOpen);
   }
 
+  // Why this function exist? Can you just pass false to MobileNavigation by default?
   function setStateToFalse() {
     setIsMobileOpen(false);
   }
+
   return (
     <nav>
       <Navigation />

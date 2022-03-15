@@ -18,6 +18,7 @@ export default function Contact() {
           <p>Sunday CLOSED</p>
         </div>
       </div>
+      {/* Good, making these 2 individual components */}
       <BookingForm />
       <GoogleMap />
     </div>

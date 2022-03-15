@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 // data
 import data from "../data/db.json";
 
+// Duplicate code -1 :( (this was clearly an instance of Category.jsx)
 export default function Dishes() {
   const menuItems = data
     .filter((item) => item.cat === "dessert")

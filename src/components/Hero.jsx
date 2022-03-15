@@ -4,6 +4,7 @@ export default function Hero(props) {
       <div className="hero">
         <div className={`hero-img ${props.className}`} />
         <div className="svg">
+          {/* Save the icon as a React component like in Footer to avoid nesting -1 */}
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
               fill="#fafafa"

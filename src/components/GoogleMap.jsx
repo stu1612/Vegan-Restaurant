@@ -1,5 +1,6 @@
 import React from "react";
 
+// good
 export default function GoogleMap() {
   return (
     <div className="map">

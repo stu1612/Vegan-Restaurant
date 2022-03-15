@@ -2,6 +2,7 @@
 import ProductIngredients from "./ProductIngredients";
 import ProductNutrients from "./ProductNutrients";
 
+// good
 export default function ProductItem({ item }) {
   const { title, body, thumbnailImage } = item;
 

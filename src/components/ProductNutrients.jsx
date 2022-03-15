@@ -1,3 +1,4 @@
+// Long but neccesary for this particular design. So its ok.
 export default function ProductNutrients({ item }) {
   const nutrient = item.nutrients;
   return (

@@ -1,3 +1,4 @@
+// good
 export default function ProductIngredients({ item }) {
   const ingredients = item.ingredients;
 

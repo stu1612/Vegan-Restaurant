@@ -1,3 +1,4 @@
+// This one is too long, you can make it shorter by having a InputField component to remove duplication
 export default function BookingForm() {
   const date = new Date();
   return (

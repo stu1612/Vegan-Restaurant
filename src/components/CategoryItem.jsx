@@ -2,6 +2,7 @@
 import { Link } from "react-router-dom";
 
 export default function CategoryItem(props) {
+  // Naming -1 what is cn1 and cn2?
   const { cn1, cn2, img, alt, title, text, route } = props;
   return (
     <>

@@ -4,6 +4,7 @@ import MenuItems from "../components/MenuItems";
 // data
 import data from "../data/db.json";
 
+// Duplicate code -1 :( (this was clearly an instance of Category.jsx)
 export default function Drinks() {
   const menuItems = data
     .filter((item) => item.cat === "drink")

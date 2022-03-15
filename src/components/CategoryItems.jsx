@@ -5,6 +5,7 @@ import dish from "../assets/images/app_images/dish_sm.jpg";
 import dessert from "../assets/images/app_images/dessert_sm.jpg";
 import drink from "../assets/images/app_images/drink_sm.jpg";
 
+//  
 export default function CategoryItems({ content }) {
   return (
     <div className="category-grid">
